@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7230f4ee30b21044fab1c32b4a3e5c48, type: 3}
+  m_Name: Gold Piece
+  m_EditorClassIdentifier: 
+  itemID: 50114e04-d1ff-428c-986f-b2ebf59b2405
+  displayName: Gold
+  description: Use it to buy Items in Shops.
+  icon: {fileID: 21300000, guid: 2c317dae05e94f140878e9fcf787583e, type: 3}
+  pickup: {fileID: -5350951222791786163, guid: f850e177169f0c8489851036ae5aec0d, type: 3}
+  stackable: 1
+  price: 1
+  itemCategory: 0

@@ -1,0 +1,253 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6708719087772084240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: 857e4428-27d1-43da-8cb7-7dd283f8d44d
+  m_EditorClassIdentifier: 
+  text: Non capisco.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 246
+    y: 98
+    width: 200
+    height: 100
+  isPlayerSpeaking: 1
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-5645468800622390400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: 7073dbff-4c32-4414-9a13-ce5109bb61d1
+  m_EditorClassIdentifier: 
+  text: And where do I start? The past and the chase
+  children:
+  - cc707a10-f77d-4670-b7b8-d8ddf963271d
+  rect:
+    serializedVersion: 2
+    x: 244
+    y: 207
+    width: 200
+    height: 100
+  isPlayerSpeaking: 1
+  onEnterAction: Test Selection
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f09607918a28745859c0aacc971dfa, type: 3}
+  m_Name: Example Dialogue
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 383864717958388464}
+  - {fileID: 5059027742657098163}
+  - {fileID: 1466782797782222828}
+  - {fileID: 6097003551021356883}
+  - {fileID: 7402403017458501657}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &383864717958388464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: aae4d1ce-2e31-49c0-b6f2-db6c972b6a4f
+  m_EditorClassIdentifier: 
+  text: Hi, is there something you want to tell me?
+  children:
+  - c3049ade-012d-425b-bb4e-1c2f373878e7
+  - 4fae3b2c-4d05-4499-bf9f-7ba01e6cd5e8
+  rect:
+    serializedVersion: 2
+    x: 7
+    y: 3
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: Test Root Node
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &1466782797782222828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: 4fae3b2c-4d05-4499-bf9f-7ba01e6cd5e8
+  m_EditorClassIdentifier: 
+  text: You are handsome.
+  children:
+  - da6d0f4d-6fba-4cb5-b063-97e2f989c967
+  rect:
+    serializedVersion: 2
+    x: 308
+    y: 152
+    width: 200
+    height: 100
+  isPlayerSpeaking: 1
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &2394544221136739729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: a3c0c7b4-84b0-4e3f-9517-de7c1dfe1c0f
+  m_EditorClassIdentifier: 
+  text: Non so.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 250
+    y: 0
+    width: 200
+    height: 100
+  isPlayerSpeaking: 1
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5059027742657098163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: c3049ade-012d-425b-bb4e-1c2f373878e7
+  m_EditorClassIdentifier: 
+  text: You are ugly.
+  children:
+  - 155d9a1e-475b-47b8-9d6b-12f24c47e364
+  rect:
+    serializedVersion: 2
+    x: 310
+    y: 3
+    width: 200
+    height: 100
+  isPlayerSpeaking: 1
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &6097003551021356883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: 155d9a1e-475b-47b8-9d6b-12f24c47e364
+  m_EditorClassIdentifier: 
+  text: I'm really angy now, I will attack you.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 561
+    y: 4
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: Attack
+  condition:
+    and: []
+--- !u!114 &7402403017458501657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: da6d0f4d-6fba-4cb5-b063-97e2f989c967
+  m_EditorClassIdentifier: 
+  text: Thank you! (Quest Completed)
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 562
+    y: 161
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: TestObjective
+  condition:
+    and: []
+--- !u!114 &7944102005473998614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: cc707a10-f77d-4670-b7b8-d8ddf963271d
+  m_EditorClassIdentifier: 
+  text: You hunted me down Like a wolf, a predator I felt like a deer in love lights
+  children:
+  - c3049ade-012d-425b-bb4e-1c2f373878e7
+  - 4fae3b2c-4d05-4499-bf9f-7ba01e6cd5e8
+  rect:
+    serializedVersion: 2
+    x: 495
+    y: 3
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: Test AI Exit Action
+  condition:
+    and: []

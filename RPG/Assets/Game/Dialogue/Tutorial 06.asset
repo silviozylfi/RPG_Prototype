@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4040876731282894160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: 2cab0d9c-2cd6-4cbb-8980-ac90f35873d5
+  m_EditorClassIdentifier: 
+  text: 1 - 6  - Use Action Items
+  children:
+  - 5e75912d-1a42-4342-be1b-ca316a4e10db
+  rect:
+    serializedVersion: 2
+    x: 23
+    y: 135
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-3454667327989843190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: ec97b1ca-d773-43b1-b587-a349309cac5c
+  m_EditorClassIdentifier: 
+  text: Mouse SX - Movement and Interaction
+  children:
+  - f46f2b8c-886f-4dc3-a429-7dba1b4410ca
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f09607918a28745859c0aacc971dfa, type: 3}
+  m_Name: Tutorial 06
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -3454667327989843190}
+  - {fileID: 9051139244063002521}
+  - {fileID: 6746551000734052638}
+  - {fileID: -4040876731282894160}
+  - {fileID: 2811377172679688489}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &1335922078003118803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: ae7b6d74-3d88-42b2-ad0a-377f26145b5f
+  m_EditorClassIdentifier: 
+  text: S - Save Game
+  children:
+  - 8e9e09fd-0d2c-4a00-a772-4dc208700e88
+  rect:
+    serializedVersion: 2
+    x: 751
+    y: 0
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &1621848448760327376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: 8e9e09fd-0d2c-4a00-a772-4dc208700e88
+  m_EditorClassIdentifier: 
+  text: L - Load Last Game
+  children:
+  - 2cab0d9c-2cd6-4cbb-8980-ac90f35873d5
+  rect:
+    serializedVersion: 2
+    x: 1001
+    y: 0
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &2811377172679688489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: 5e75912d-1a42-4342-be1b-ca316a4e10db
+  m_EditorClassIdentifier: 
+  text: ESC - Open Menu
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 251
+    y: 150
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &6746551000734052638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: 48dc13c4-11f8-4fd2-a0b4-2f717d009f08
+  m_EditorClassIdentifier: 
+  text: Q - Open / Close Current Quests
+  children:
+  - 2cab0d9c-2cd6-4cbb-8980-ac90f35873d5
+  rect:
+    serializedVersion: 2
+    x: 501
+    y: 0
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &9051139244063002521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: f46f2b8c-886f-4dc3-a429-7dba1b4410ca
+  m_EditorClassIdentifier: 
+  text: I - Open / Close Inventory
+  children:
+  - 48dc13c4-11f8-4fd2-a0b4-2f717d009f08
+  rect:
+    serializedVersion: 2
+    x: 250
+    y: 0
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

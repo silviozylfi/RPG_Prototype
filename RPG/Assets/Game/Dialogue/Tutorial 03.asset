@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8610724057799666308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: 9bcf0705-d5dc-4aa3-840b-55e8a5a398ba
+  m_EditorClassIdentifier: 
+  text: Some NPCs hare Merchants. If you click on them, you will trigger the Shopping
+    Panel.
+  children:
+  - 90516288-2a6b-454f-b944-dfdf8ab9fe27
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-5643402498092108837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: 90516288-2a6b-454f-b944-dfdf8ab9fe27
+  m_EditorClassIdentifier: 
+  text: 'In Shops you can Buy and Sell weapons, armors, spells, and random objects. '
+  children:
+  - c8a76501-7fa2-4195-8019-cc773789a829
+  rect:
+    serializedVersion: 2
+    x: 252
+    y: 0
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-3265801270875230196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: f583157d-2825-4cb1-9212-b0da4bcda856
+  m_EditorClassIdentifier: 
+  text: On the bottom side of the Inventory, you can see the Action Bar. You can
+    assign Potions and Spells to these slots, and activate each slot pressing Keys
+    from 1 to 6 (of course, the Slot needs not to be empty in order to be activated).
+  children: []
+  rect:
+    serializedVersion: 2
+    x: -2
+    y: 116
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-647954317706444015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: 94e13324-92b9-4d8d-8565-253b93008a58
+  m_EditorClassIdentifier: 
+  text: 'On the left side of the Inventory, you can see the Equipment Slots: these
+    are slots where you can assign the currently used weapon, the currently weared
+    armors, etc. You can assign to these slots only the correct kind of Items (I.E.
+    you can''t assign a Hat to the Weapon Slot, or to the Shoes Slot).'
+  children:
+  - f583157d-2825-4cb1-9212-b0da4bcda856
+  rect:
+    serializedVersion: 2
+    x: 1002
+    y: 0
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f09607918a28745859c0aacc971dfa, type: 3}
+  m_Name: Tutorial 03
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -8610724057799666308}
+  - {fileID: -5643402498092108837}
+  - {fileID: 7896929724741384984}
+  - {fileID: 2896467278609228952}
+  - {fileID: -647954317706444015}
+  - {fileID: -3265801270875230196}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &2896467278609228952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: 79b7283c-d110-4cc5-99ee-0bac1d2e8e48
+  m_EditorClassIdentifier: 
+  text: The Items that you buy are collected in your Inventory, Press I to open the
+    inventory. From the Inventory, you Drag&Drop items, spells, weapons and armor
+    on your Player.
+  children:
+  - 94e13324-92b9-4d8d-8565-253b93008a58
+  rect:
+    serializedVersion: 2
+    x: 752
+    y: 0
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7896929724741384984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: c8a76501-7fa2-4195-8019-cc773789a829
+  m_EditorClassIdentifier: 
+  text: Some Items may be available in shops only after you have levelled up. Some
+    Merchants will give you special discounts. All these parameters are easily customizable
+    inside Unity's Editor.
+  children:
+  - 79b7283c-d110-4cc5-99ee-0bac1d2e8e48
+  rect:
+    serializedVersion: 2
+    x: 502
+    y: 0
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

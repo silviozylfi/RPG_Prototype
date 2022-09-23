@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd41b3bef6df0ad45af69d7274b479a9, type: 3}
+  m_Name: Splash
+  m_EditorClassIdentifier: 
+  itemID: d0ea2768-e3ee-442e-a596-37ce1aa322c0
+  displayName: Splash
+  description: Launches Water Splash to all the enemies in an Area. Assign it to
+    an Action Slot.
+  icon: {fileID: 21300000, guid: 52119c06534ce854889415d70848c1ce, type: 3}
+  pickup: {fileID: -2402835057216620089, guid: e97f3b018e2a66c4b94b1d9dc52fa5c8, type: 3}
+  stackable: 0
+  price: 20
+  itemCategory: 5
+  consumable: 0
+  targetingStrategy: {fileID: 11400000, guid: 02ae710083aa9824691088a43b327ae9, type: 2}
+  filterStrategies:
+  - {fileID: 11400000, guid: 2050a1a959fbe984eb6edb67313479d7, type: 2}
+  effectStrategies:
+  - {fileID: 11400000, guid: b260dd5b73e434e488d8d3d8329f32b6, type: 2}
+  - {fileID: 11400000, guid: 9ecc24473d70c79438d98525d3ce1c7b, type: 2}
+  - {fileID: 11400000, guid: 0a857a1d829804f4c88e59ada384c525, type: 2}
+  cooldownTime: 5
+  manaCost: 30

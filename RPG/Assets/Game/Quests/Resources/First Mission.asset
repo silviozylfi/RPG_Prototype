@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f89ab1c91a902a046b65aab65e149645, type: 3}
+  m_Name: First Mission
+  m_EditorClassIdentifier: 
+  objectives:
+  - reference: First Rock
+    description: Tell Muhr he's handsome.
+  rewards:
+  - number: 1
+    item: {fileID: 11400000, guid: 52560a41d13b27a4e9c8b153e9c4eb33, type: 2}
+  - number: 2
+    item: {fileID: 11400000, guid: dc536ffb59954c7429633e5f3463fcb2, type: 2}
+  - number: 3
+    item: {fileID: 11400000, guid: 9e0ab8f9c590a324e9a01663ca53a6ae, type: 2}

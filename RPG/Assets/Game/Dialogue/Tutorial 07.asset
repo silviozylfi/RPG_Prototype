@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9096101987047619044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: 449a2fcb-c183-41df-9e6f-686dd187254d
+  m_EditorClassIdentifier: 
+  text: 'The whole project is based on a Course that i followed on Udemy (RPG series
+    by GameDevTV). '
+  children:
+  - b3b84ee4-4e3e-4ff3-ae4a-2f0210841df0
+  rect:
+    serializedVersion: 2
+    x: 500
+    y: 0
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-6770452970476318105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: 74cec489-4948-47e8-831e-2df2f6606a28
+  m_EditorClassIdentifier: 
+  text: Walk to the end of this corridor to reach the next level. The Game Design
+    and Level Design are pretty basic, this is obviously not a complete game, but
+    just a prototype showing the features that I programmed.
+  children:
+  - 449a2fcb-c183-41df-9e6f-686dd187254d
+  rect:
+    serializedVersion: 2
+    x: 250
+    y: 0
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-1086695047923706893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: 7dc3cad8-b361-4186-b223-1f22d937d0de
+  m_EditorClassIdentifier: 
+  text: All the code is written in a clean and efficient way. The code is written
+    in a clean and efficient way, using Design Patterbs and following SOLID principles.
+  children:
+  - 74cec489-4948-47e8-831e-2df2f6606a28
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f09607918a28745859c0aacc971dfa, type: 3}
+  m_Name: Tutorial 07
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -1086695047923706893}
+  - {fileID: -6770452970476318105}
+  - {fileID: -9096101987047619044}
+  - {fileID: 2223140927752409191}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &2223140927752409191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: b3b84ee4-4e3e-4ff3-ae4a-2f0210841df0
+  m_EditorClassIdentifier: 
+  text: Thanks for your attention, ciao!
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 750
+    y: 0
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

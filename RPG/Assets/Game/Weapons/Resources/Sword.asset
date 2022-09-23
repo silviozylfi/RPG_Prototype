@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f70e07364dcab464a82184b589381d24, type: 3}
+  m_Name: Sword
+  m_EditorClassIdentifier: 
+  itemID: c4c762de-c26d-4b26-aede-e191b6d59197
+  displayName: Sword
+  description: Great for the Short Distance. Assign it to the Weapon slot in the
+    Equipment Panel.
+  icon: {fileID: 21300000, guid: 9c3447474d3610345aecbba733f54161, type: 3}
+  pickup: {fileID: -5350951222791786163, guid: 7661dfe18f711c84eb22213c3b44f84a, type: 3}
+  stackable: 0
+  price: 200
+  itemCategory: 2
+  allowedEquipLocation: 5
+  equippedPrefab: {fileID: -5183006660876783760, guid: 880b8a5566ab999418e74c290f33a74f, type: 3}
+  animatorOverride: {fileID: 22100000, guid: a80ff824136dc2c4cafe22af603c3412, type: 2}
+  weaponDamage: 10
+  percentageBonus: 5
+  weaponRange: 2.5
+  isRightHanded: 1
+  projectile: {fileID: 0}

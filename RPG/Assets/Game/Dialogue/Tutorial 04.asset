@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7585317199065701375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: 499e843b-93a9-4157-8301-c6bb70e5b64d
+  m_EditorClassIdentifier: 
+  text: Each Weapon and Each Spell has different Hit Points and effects. Everything
+    is customizable inside Unity's Editor.
+  children:
+  - 4cf4649b-5a93-4191-9512-5beb74c0a10b
+  rect:
+    serializedVersion: 2
+    x: 500
+    y: 0
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-6748776919055226065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: de3c5a47-0667-4504-a7ad-14155f95ffd7
+  m_EditorClassIdentifier: 
+  text: Everytime you kill an Enemy, you will gain XP Points. XP gained depend on
+    the Enemy's level.
+  children:
+  - 45d3c396-d6a8-4688-b1a1-a1bd6cf568a7
+  rect:
+    serializedVersion: 2
+    x: 16
+    y: 120
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-4908711785191691358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: 45d3c396-d6a8-4688-b1a1-a1bd6cf568a7
+  m_EditorClassIdentifier: 
+  text: Gaining XP, you will level up. Levelling up, you will use Trait Points to
+    improve your stats.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 266
+    y: 120
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-3303972227132795792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: 7e969463-1a4f-4fe7-b734-0676ffcfefb4
+  m_EditorClassIdentifier: 
+  text: In order to be efficient in combat, you will need to Equip a Weapon, or to
+    use strong spells from the Action Bar.
+  children:
+  - 499e843b-93a9-4157-8301-c6bb70e5b64d
+  rect:
+    serializedVersion: 2
+    x: 250
+    y: 0
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-2123487703848222874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: 4cf4649b-5a93-4191-9512-5beb74c0a10b
+  m_EditorClassIdentifier: 
+  text: Using Spells will cost you Mana. Getting hit by enemies will cost you Energy.
+    Wear armors to improve your Defence.
+  children:
+  - de3c5a47-0667-4504-a7ad-14155f95ffd7
+  rect:
+    serializedVersion: 2
+    x: 750
+    y: 0
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f09607918a28745859c0aacc971dfa, type: 3}
+  m_Name: Tutorial 04
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 7206046794292075408}
+  - {fileID: -3303972227132795792}
+  - {fileID: -7585317199065701375}
+  - {fileID: -2123487703848222874}
+  - {fileID: -6748776919055226065}
+  - {fileID: -4908711785191691358}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &7206046794292075408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: 12aa39af-6425-4dce-b793-a13ec2f53a93
+  m_EditorClassIdentifier: 
+  text: Some NPCs are enemies, they will attack you on sight, and you can fight them
+    back.
+  children:
+  - 7e969463-1a4f-4fe7-b734-0676ffcfefb4
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

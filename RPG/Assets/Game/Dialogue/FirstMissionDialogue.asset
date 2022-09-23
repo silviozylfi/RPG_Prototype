@@ -1,0 +1,349 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5189323400153534576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: e3aa7f33-a872-46e7-9281-4347226b8ab1
+  m_EditorClassIdentifier: 
+  text: I'm working on it already.
+  children:
+  - 4784b2ec-61d5-4acd-89de-2ff91bafeb82
+  rect:
+    serializedVersion: 2
+    x: 503
+    y: 247
+    width: 200
+    height: 100
+  isPlayerSpeaking: 1
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - First Mission
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - First Mission
+        negate: 1
+--- !u!114 &-3588277321077173087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: f18aefd5-d6ed-41ce-86e8-30eff93d13b7
+  m_EditorClassIdentifier: 
+  text: Do you like my Healthy Hat?
+  children:
+  - b841ce46-88a0-4ea3-a212-1b840e63572a
+  rect:
+    serializedVersion: 2
+    x: 499
+    y: 359
+    width: 200
+    height: 100
+  isPlayerSpeaking: 1
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasInventoryItem
+        parameters:
+        - dd783976-55ed-4c39-ba4d-fdcae74a3261
+        negate: 0
+--- !u!114 &-593499394927227019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: b841ce46-88a0-4ea3-a212-1b840e63572a
+  m_EditorClassIdentifier: 
+  text: Yes.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 749
+    y: 359
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f09607918a28745859c0aacc971dfa, type: 3}
+  m_Name: FirstMissionDialogue
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 4700045613950029587}
+  - {fileID: 7721599356977780728}
+  - {fileID: 7837063719370059268}
+  - {fileID: 1921543333913873743}
+  - {fileID: 3777586802703397112}
+  - {fileID: -5189323400153534576}
+  - {fileID: 1509389476834641261}
+  - {fileID: -3588277321077173087}
+  - {fileID: -593499394927227019}
+  - {fileID: 5128155393709217456}
+  - {fileID: 4714130582566743461}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &1509389476834641261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: 4784b2ec-61d5-4acd-89de-2ff91bafeb82
+  m_EditorClassIdentifier: 
+  text: Ah yes, bad memory.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 753
+    y: 247
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &1921543333913873743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: 103f722d-89b6-45fc-ac13-23670da6d7f1
+  m_EditorClassIdentifier: 
+  text: Decline Mission
+  children:
+  - c3212e38-4f54-487a-b624-b40a2a9dbc69
+  rect:
+    serializedVersion: 2
+    x: 501
+    y: 115
+    width: 200
+    height: 100
+  isPlayerSpeaking: 1
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - First Mission
+        negate: 1
+--- !u!114 &3777586802703397112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: 37e730df-f4ef-454d-982c-398d63f44893
+  m_EditorClassIdentifier: 
+  text: Thank you! Press Q to open your active Quests.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 750
+    y: 0
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: GiveQuest
+  condition:
+    and: []
+--- !u!114 &4700045613950029587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: 8405b9a7-1c47-46e0-bc83-d0bf57488bf8
+  m_EditorClassIdentifier: 
+  text: Hi, I need your help.
+  children:
+  - 8981913a-2a11-498b-a3df-b7c438f4133d
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &4714130582566743461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: fe823979-a700-4d57-a034-3270189ef129
+  m_EditorClassIdentifier: 
+  text: I've done it already.
+  children:
+  - 4784b2ec-61d5-4acd-89de-2ff91bafeb82
+  rect:
+    serializedVersion: 2
+    x: 495
+    y: 476
+    width: 200
+    height: 100
+  isPlayerSpeaking: 1
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - First Mission
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - First Mission
+        negate: 0
+--- !u!114 &5128155393709217456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: c3212e38-4f54-487a-b624-b40a2a9dbc69
+  m_EditorClassIdentifier: 
+  text: This makes me really sad.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 751
+    y: 115
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7721599356977780728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: 8981913a-2a11-498b-a3df-b7c438f4133d
+  m_EditorClassIdentifier: 
+  text: I need you to tell Muhr that he's handsome. If you accept this mission, you
+    will see it in your Quest List (Press Q).
+  children:
+  - 468cb434-e864-4f71-9139-44c30384c9a1
+  - 103f722d-89b6-45fc-ac13-23670da6d7f1
+  - e3aa7f33-a872-46e7-9281-4347226b8ab1
+  - f18aefd5-d6ed-41ce-86e8-30eff93d13b7
+  - fe823979-a700-4d57-a034-3270189ef129
+  rect:
+    serializedVersion: 2
+    x: 258
+    y: 2
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7837063719370059268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: 468cb434-e864-4f71-9139-44c30384c9a1
+  m_EditorClassIdentifier: 
+  text: Accept Mission
+  children:
+  - 37e730df-f4ef-454d-982c-398d63f44893
+  rect:
+    serializedVersion: 2
+    x: 501
+    y: -1
+    width: 200
+    height: 100
+  isPlayerSpeaking: 1
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - First Mission
+        negate: 1

@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8625952171113258206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: 3064ca6b-e14e-4e98-b36e-084054defda8
+  m_EditorClassIdentifier: 
+  text: Great. So go on and talk to the next guy.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 751
+    y: 0
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-8317205709989883236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: c7a20b76-2022-4599-a89b-700b013482cd
+  m_EditorClassIdentifier: 
+  text: I'm sorry. Try triggering once again my dialogue.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 754
+    y: 112
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-5436534900831488291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: 63816ba2-600c-4916-af12-381afdef72f7
+  m_EditorClassIdentifier: 
+  text: As you already saw, some clicking on some NPCs will trigger a dialogue.
+  children:
+  - b09b5ce8-0fd7-423d-a0f2-1f3ffa21c63c
+  rect:
+    serializedVersion: 2
+    x: 1
+    y: 0
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-4571819142190646962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: b09b5ce8-0fd7-423d-a0f2-1f3ffa21c63c
+  m_EditorClassIdentifier: 
+  text: Dialogues are built with a custom editor in Unity. Dialogues have multiple-choice-answers.
+    Some choices will trigger a Quest, others will make NPCs aggressive. Do you understand?
+  children:
+  - 8c63a3be-0daa-4f92-ba3f-7345fa8f2eda
+  - 456dc8ca-157e-4ca2-ad5d-3f554b69594f
+  rect:
+    serializedVersion: 2
+    x: 247
+    y: 6
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-1389969326195323146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: 456dc8ca-157e-4ca2-ad5d-3f554b69594f
+  m_EditorClassIdentifier: 
+  text: No, I don't.
+  children:
+  - c7a20b76-2022-4599-a89b-700b013482cd
+  rect:
+    serializedVersion: 2
+    x: 504
+    y: 112
+    width: 200
+    height: 100
+  isPlayerSpeaking: 1
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f09607918a28745859c0aacc971dfa, type: 3}
+  m_Name: Tutorial 02
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -5436534900831488291}
+  - {fileID: -4571819142190646962}
+  - {fileID: 8408087232337541986}
+  - {fileID: -1389969326195323146}
+  - {fileID: -8625952171113258206}
+  - {fileID: -8317205709989883236}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &8408087232337541986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: 8c63a3be-0daa-4f92-ba3f-7345fa8f2eda
+  m_EditorClassIdentifier: 
+  text: Yes, I understand.
+  children:
+  - 3064ca6b-e14e-4e98-b36e-084054defda8
+  rect:
+    serializedVersion: 2
+    x: 501
+    y: 0
+    width: 200
+    height: 100
+  isPlayerSpeaking: 1
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

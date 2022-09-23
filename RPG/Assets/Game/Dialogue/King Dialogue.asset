@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7622532854677638346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: 18bd2226-5a59-4fd6-b445-08f64f3201ea
+  m_EditorClassIdentifier: 
+  text: I knew I could count on you!
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 750
+    y: 0
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-1083248051906757789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: 37f3620d-5aa2-4674-9f0c-95fbc1a87ed7
+  m_EditorClassIdentifier: 
+  text: I don't care.
+  children:
+  - 53be9643-18d6-4e80-900f-7f232c312997
+  rect:
+    serializedVersion: 2
+    x: 498
+    y: 107
+    width: 200
+    height: 100
+  isPlayerSpeaking: 1
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f09607918a28745859c0aacc971dfa, type: 3}
+  m_Name: King Dialogue
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 4059124343999160196}
+  - {fileID: 4646643777418328940}
+  - {fileID: 9032820403471561938}
+  - {fileID: -1083248051906757789}
+  - {fileID: -7622532854677638346}
+  - {fileID: 6598025930386128355}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &4059124343999160196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: 8dc825d9-03ee-40ef-a457-a910744a8f3e
+  m_EditorClassIdentifier: 
+  text: Help!
+  children:
+  - 985c2add-127b-4deb-a35d-6c03864d555c
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &4646643777418328940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: 985c2add-127b-4deb-a35d-6c03864d555c
+  m_EditorClassIdentifier: 
+  text: The whole village is under attack!
+  children:
+  - eb50fe26-8dee-4315-9b06-20e78034f8d7
+  - 37f3620d-5aa2-4674-9f0c-95fbc1a87ed7
+  rect:
+    serializedVersion: 2
+    x: 250
+    y: 0
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &6598025930386128355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: 53be9643-18d6-4e80-900f-7f232c312997
+  m_EditorClassIdentifier: 
+  text: That's not what you are supposed to say...
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 748
+    y: 107
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &9032820403471561938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbb497a99837cb4480767d5b67274c8, type: 3}
+  m_Name: eb50fe26-8dee-4315-9b06-20e78034f8d7
+  m_EditorClassIdentifier: 
+  text: I will help you.
+  children:
+  - 18bd2226-5a59-4fd6-b445-08f64f3201ea
+  rect:
+    serializedVersion: 2
+    x: 500
+    y: 0
+    width: 200
+    height: 100
+  isPlayerSpeaking: 1
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
